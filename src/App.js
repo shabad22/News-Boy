@@ -38,9 +38,6 @@ const App = () => {
 
     return (
         <div>
-//             <div className={classes.logoContainer} >
-//                 <img src={process.env.PUBLIC_URL + '/shogo.png'} className={classes.alanlogo} alt="NewsBoy!" />
-//             </div>
             <NewsCards articles={newsArticles} activeArticle={activeArticle}/>
         </div>
     )
